@@ -1,0 +1,218 @@
+/* Blog Page Styling */
+body {
+  background-image: url('/public/images/blog-background.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.blog-title {
+  text-align: center;
+  color: #333;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.blog-card {
+  margin-bottom: 30px;
+  transition: transform 0.3s ease-in-out;
+  background: rgba(255, 255, 255, 0.9); /* Slight transparency for better readability */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.blog-card:hover {
+  transform: translateY(-10px);
+}
+
+.blog-card img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.blog-card .card-body {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.blog-card .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.blog-card .card-text {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.blog-card .btn {
+  margin-right: 10px;
+}
+
+.blog-card .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: background-color 0.3s ease;
+}
+
+.blog-card .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.blog-card .btn-outline-primary {
+  border-color: #007bff;
+  color: #007bff;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.blog-card .btn-outline-primary:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.blog-card .btn-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.blog-card .btn-link:hover {
+  text-decoration: underline;
+}
+
+/* Modal Styling */
+.modal-header {
+  background-color: #007bff;
+  color: white;
+}
+
+.modal-body {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.modal-footer {
+  background-color: #f1f1f1;
+}
+
+.modal-footer .btn-primary {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.modal-footer .btn-primary:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.modal-footer .btn-secondary {
+  background-color: #f8f9fa;
+  border-color: #ccc;
+}
+
+.modal-footer .btn-secondary:hover {
+  background-color: #e2e6ea;
+  border-color: #ddd;
+}
+
+/* New Post Form Styling */
+.modal-content {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.form-control {
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 12px;
+  font-size: 1rem;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+/* Search Bar Styling */
+input[type="text"] {
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: 300px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+input[type="text"]::placeholder {
+  color: #888;
+}
+
+.mb-4 {
+  margin-bottom: 40px !important;
+}
+
+/* Button Styling */
+button.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  padding: 12px 25px;
+}
+
+button.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+/* Container Styling */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Card Layout Styling */
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.col-md-4 {
+  flex: 1 1 30%;
+  max-width: 30%;
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+  .col-md-4 {
+    max-width: 100%;
+  }
+}
+
+.blog-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.blog-card {
+  margin-bottom: 20px;
+}

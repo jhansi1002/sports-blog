@@ -1,0 +1,49 @@
+/* src/components/Football.css */
+
+/* Container for the Football page */
+.football-container {
+  background-image: url('/public/images/Football-background.jpg'); /* Add your background image path */
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  min-height: 100vh; /* Ensure the container takes the full height of the viewport */
+  padding: 20px; /* Add some padding to avoid content touching the edges */
+}
+
+/* Title styling */
+.football-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white; /* White color for the title */
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a shadow to make the text stand out */
+}
+
+/* Card styling */
+.blog-card {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for the card */
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.blog-card:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
+}
+
+/* Button styling */
+.blog-card .btn-primary {
+  background-color: rgba(0, 0, 255, 0.9); /* Semi-transparent blue background */
+  border: 1px solid rgba(0, 0, 255, 1); /* Solid blue border */
+  color: white; /* Button text color */
+  font-weight: bold;
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.blog-card .btn-primary:hover {
+  background-color: rgba(0, 0, 200, 1); /* Darker blue on hover */
+  border: 1px solid rgba(0, 0, 200, 1); /* Darker blue border on hover */
+}

@@ -1,0 +1,49 @@
+/* src/components/Tennis.css */
+
+/* Container for the Tennis page */
+.tennis-container {
+    background-image: url('/public/images/Tennis-background.jpg'); /* Add your background image path */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    min-height: 100vh; /* Ensure the container takes the full height of the viewport */
+    padding: 20px; /* Add some padding to avoid content touching the edges */
+  }
+  
+  /* Title styling */
+  .tennis-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white; /* White color for the title */
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a shadow to make the text stand out */
+  }
+  
+  /* Card styling */
+  .blog-card {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for the card */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .blog-card:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+  }
+  
+  /* Button styling */
+  .blog-card .btn-primary {
+    background-color: rgba(0, 128, 0, 0.9); /* Semi-transparent green background */
+    border: 1px solid rgba(0, 128, 0, 1); /* Solid green border */
+    color: white; /* Button text color */
+    font-weight: bold;
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .blog-card .btn-primary:hover {
+    background-color: rgba(0, 100, 0, 1); /* Darker green on hover */
+    border: 1px solid rgba(0, 100, 0, 1); /* Darker green border on hover */
+  }

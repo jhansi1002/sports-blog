@@ -1,0 +1,88 @@
+/* src/pages/Auth.css */
+
+/* Container for the authentication pages */
+.auth-container {
+  
+  margin-top: 50px;
+  background-image: url('/public/images/auth-background.jpg.avif'); /* Add your background image path */
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  min-height: 100vh; /* Ensure the container takes the full height of the viewport */
+  display: flex;
+  align-items: center; /* Center the content vertically */
+  justify-content: center; /* Center the content horizontally */
+  padding: 20px; /* Add some padding to avoid content touching the edges */
+}
+
+/* Card with transparency, allowing the background image to show through */
+.auth-card {
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background to show the image/video behind */
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Subtle border to outline the card */
+  backdrop-filter: blur(5px); /* Optional: adds a blur effect behind the card to make text more readable */
+ width: 1000px;
+ max-width: 90%;
+  
+
+}
+
+/* Title styling */
+.auth-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: blue /* White color for the title */
+}
+
+/* Input fields with transparent background to show the background */
+.auth-input {
+  margin-bottom: 1rem;
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background for input */
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Subtle border */
+  color: #333; /* Text color */
+  padding: 10px; /* Adding padding for better user experience */
+}
+
+/* Button with transparent background */
+.auth-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: rgba(0, 123, 255, 0.7); /* Semi-transparent blue background */
+  border: 1px solid rgba(0, 123, 255, 1); /* Solid blue border */
+  color: white; /* Button text color */
+  font-weight: bold;
+}
+
+/* Hover effect for the button */
+.auth-button:hover {
+  background-color: rgba(0, 123, 255, 1); /* Full blue on hover */
+  border: 1px solid rgba(0, 123, 255, 1); /* Full blue border on hover */
+  color: lavender /* Keep text color white */
+}
+
+/* Footer for Sign Up / Login link */
+.auth-footer {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* Link styling for Sign Up */
+.auth-footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.auth-footer a:hover {
+  text-decoration: underline;
+}
